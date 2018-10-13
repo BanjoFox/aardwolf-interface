@@ -13,13 +13,13 @@
 	<div id="navbar_menu_hero_a" class="navbar-menu">
 	  <div class="navbar-end">
 		<a class="navbar-item is-active">
-		  {{ home }}
+		  {{ "Home" | _ }}
 		</a>
 		<a class="navbar-item">
-		  {{ profile }}
+		  {{ "Profile" | _ }}
 		</a>
 		<a class="navbar-item">
-		  {{ messages }}
+		  {{ "Messages" | _ }}
 		</a>
 		<span class="navbar-item">
 		  <a class="button is-primary is-inverted">
@@ -34,7 +34,7 @@
 				<span class="icon">
 					<i class="fas fa-logout"></i>
 				</span>
-				Logout
+				{{ "Logout" | _ }} 
 			</a>
 		</span>   
 	  </div>
